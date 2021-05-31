@@ -5,7 +5,6 @@ public class Point extends Point3D_F32 {
 	
 	public Point() {
 		super();
-		this.state = State.Available;
 	}
 	
 	public Point(float x, float y, float z) {
