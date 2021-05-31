@@ -15,3 +15,6 @@ Nam : T đã thêm những chức năng sau cho camera:
 		|      |      |
 		p0-----|------p3
 	- Check 1 điểm bất kì có nằm trong tầm nhìn của camera hay không? : public boolean checkPointInRange()
+	- Mong muốn class Room của Đạt + Linh cung cấp các thuộc tính sau :
+		+ ) List<Plane> walls: với các input vào, lập ra list các mặt phẳng chứa các mặt của hình hộp
+		+) 3 thuộc tính length, width, height tương ứng với 3 giá trị chiều dài(theo trục Ox), chiều rộng(theo trục Oy), chiều cao(theo trục Oz)
