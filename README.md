@@ -6,3 +6,12 @@ Add georegression library for your project.
 	4. Open your Eclipse, choose project, right-click
 	5. Choose Build path -> Add external achives...
 	6. Choo directory of all JAR file in your folder you've extract, click OK
+Nam : T đã thêm những chức năng sau cho camera:
+	- Check camera có hợp lệ( nằm trong phòng hay trên tường không) : public boolean checkCameraOnPlane()
+	- Đưa ra tập 4 điểm là 4 góc của hình vuông, là hình chiếu của camera lên tường đối diện ( p0, p1, p2, p3 , O : hình chiếu của camera lên tường đối diện)
+		p1-----|------p2
+		|      |      |
+		|------O------|                   : public List<Point> getShadow()
+		|      |      |
+		p0-----|------p3
+	- Check 1 điểm bất kì có nằm trong tầm nhìn của camera hay không? : public boolean checkPointInRange()
