@@ -11,5 +11,15 @@ public class Point extends Point3D_F32 {
 		super(x,y,z);
 		this.state = State.Available;
 	}
+
+	public State getState() {
+		return state;
+	}
+
+	public void setState(State state) {
+		this.state = state;
+	}
+	
+	
 }
 
